@@ -1,0 +1,31 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif Arial, sans-serif;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:antiquewhite;
+}
+
+#question-container {
+    text-align: center;
+}
+
+#counter {
+    margin: 25px 25px;
+}
+
+#timer {
+    margin: 25px 25px;
+}
+
+.footer {
+    
+    text-align: center;
+    color: aliceblue;
+    background-color: cadetblue;
+    margin: 70% 0px;
+    width: 100%;
+    padding: 10px;
+}

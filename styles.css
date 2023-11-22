@@ -1,11 +1,30 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body, html {
+    height: 100%;
+} */
+
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif Arial, sans-serif;
     display:block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color:antiquewhite;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 #question-container {
@@ -16,16 +35,13 @@ body {
     margin: 25px 25px;
 }
 
-#timer {
-    margin: 25px 25px;
-}
-
-.footer {
-    
+#footer {
+    position: fixed;
     text-align: center;
     color: aliceblue;
     background-color: cadetblue;
-    margin: 70% 0px;
     width: 100%;
     padding: 10px;
+    bottom: 0;
 }
+

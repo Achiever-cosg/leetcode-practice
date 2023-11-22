@@ -19,7 +19,6 @@ async function fetchJsonData(url, randomNumber) {
 }
 
 const jsonUrl = 'https://gist.githubusercontent.com/dabasajay/1c42402db1b5a1b47ea009e67ad3effe/raw/e9829d1cd0b14924688b3518557367bb23682db3/problemslist.json';
-
 async function processRandomNumberAndJson() {
     try {
         const fetchedData = await fetchJsonData(jsonUrl);
